@@ -37,7 +37,7 @@ Table 이름은 `dataaset`입니다.
 | left_wrist_z            | REAL      |좌측 손목 z|
 | left_hip_x         | REAL      |좌측 엉덩이 x| 
 | left_hip_y         | REAL      |좌측 엉덩이 y|
-| left_hip_z         | REAL      |측 엉덩이 z|
+| left_hip_z         | REAL      |좌측 엉덩이 z|
 | right_elbow_angle         | REAL      |우측 팔꿈치 각도|
 | left_elbow_angle         | REAL      |좌측 팔꿈치 각도|
 | right_shoulder_angle          | REAL      |우측 어깨 각도|
@@ -49,6 +49,11 @@ Table 이름은 `dataaset`입니다.
 ## 데이터 수
 
 총 데이터 수는 1,842,545건입니다
+| 구분          | 데이터 수 | 
+|----------------------|-----------|
+| Mediapipe가 분석한 데이터 수 | 1,816,704   |
+| Mediapipe가 분석하지 못한 데이터 수  | 25,841   |
+| 총 데이터 수           | 1,842,545   |
 
 ## 데이터 다운로드
 
@@ -66,11 +71,21 @@ Table 이름은 `dataaset`입니다.
 
 - [실험 영상 파일 다운로드](https://marketian.sharepoint.com/:u:/s/IT/ES1yGolmgN1PuqYBYXQxoEoB50DeXhsZI2LIyrwHp2mvyw?e=naK5yH)
 
-## DB Brower for SQLite
+## DB Broswer for SQLite
 
 SQLite로 저장된 Database의 조회 및 관리를 위하여 아래 소프트웨어를 사용했습니다.
 
-[DB Brower for SQLite](https://sqlitebrowser.org/)
+[DB Broswer for SQLite](https://sqlitebrowser.org/)
+
+1. DB Broswer 실행 화면
+![image](https://user-images.githubusercontent.com/43843665/222322395-9d4aff8e-763b-4f3e-bb7b-2952d44deeba.png)
+
+2. DB 데이터 조회 화면
+![image](https://user-images.githubusercontent.com/43843665/222322557-7adef8bf-dff7-4ca0-ade1-f8cd6211f83f.png)
+
+3. DB 데이터 쿼리 화면 (측정자가 1인 경우 테스트)
+![image](https://user-images.githubusercontent.com/43843665/222322571-0dcea1fc-09c4-4a4a-b6c5-0606b6f743aa.png)
+
 
 
 
