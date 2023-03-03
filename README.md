@@ -2,9 +2,25 @@
 
 본 데이터 셋은 가천대학교에서 진행된 실험 중 다중카메라로부터 수집된 데이터입니다.
 
-## 실험 환경
+## 실험 정보
 
 본 실험이 측정된 환경은 아래 그림과 같습니다.
+
+- 활용 모델
+
+Mediapipe's Pose https://google.github.io/mediapipe/solutions/pose
+
+- 각도 산출 정보
+
+|구분|사용된 키 포인트|
+|---|---|
+|우측 팔꿈치 각도|16, 14, 12|
+|좌측 팔꿈치 각도|15, 13, 11|
+|우측 어깨 각도|14, 12, 24|
+|좌측 어깨 각도|13, 11, 23|
+
+![pose_tracking_full_body_landmarks](https://user-images.githubusercontent.com/43843665/222633346-e6948f7e-272c-40cb-a83c-01e701d1658a.png)
+
 
 ## 측정자 정보
 |human number|나이|키|성별|
