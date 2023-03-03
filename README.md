@@ -6,6 +6,10 @@
 
 본 실험이 측정된 환경은 아래 그림과 같습니다.
 
+- 실험 환경
+
+![image](https://user-images.githubusercontent.com/43843665/222639437-872a62df-8045-4d50-a206-60bbe6dc2348.png)
+
 - 활용 모델
 
 Mediapipe's Pose https://google.github.io/mediapipe/solutions/pose
