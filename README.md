@@ -123,7 +123,11 @@ Table 이름은 `dataaset`입니다.
 
 - [SQLlite Database 다운로드](https://marketian.sharepoint.com/:u:/s/IT/EVuFY6hKiuRPjjcudPUgG4IBkBsrtfM9LWZhKKNdJNrodA?e=MSwby7)
 
-2. .CSV Data 파일 - 데이터를 CSV로 만든 파일입니다.
+2. CSV Data 파일 - 데이터를 CSV로 만든 파일입니다.
+
+- [Database V2 .CSV 다운로드](https://marketian.sharepoint.com/:u:/s/IT/EV-BZV2cm1BJmGLNLwQIfBsB--5a52-5PogVZGMUcomCMg?e=go4ZfE)
+
+  **(모든 프레임이 결측된 영상과 CSV 결과 파일 크기가 500KB 이하인 영상을 재처리한 결과입니다. 재처리한 결과 모든 프레임이 결측되는 문제가 해결되었으며 더 많은 좌표값이 추출되었습니다.)**
 
 - [Database .CSV 다운로드](https://marketian.sharepoint.com/:u:/s/IT/ERo5ocZdM9hJuUGEE7r1krMBYuvJnFD48EjVuyW6Mhjmjw?e=nfOeVP)
 
